@@ -12,6 +12,11 @@ nav a {
     padding: 10px;
     display: block;
 }
+
+h1 {
+    color: steelblue;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
