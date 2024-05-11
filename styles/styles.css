@@ -24,7 +24,7 @@ h1 {
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
@@ -44,6 +44,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -66,10 +67,10 @@ footer {
     color: #000;
 }
 
-aside {
+/* aside {
     width: 20em;
     text-align: center;
-}
+} */
 
 aside h2 {
     position: absolute;
@@ -77,6 +78,6 @@ aside h2 {
     left: 150px;
 }
 
-main img {
+/* main img {
     float: right;
-}
+} */
