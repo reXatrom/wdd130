@@ -23,6 +23,10 @@ h1 {
     color: steelblue;
 }
 
+main {
+    max-width: 648px;
+}
+
 aside {
     width: 20em;
     margin: 1rem;
@@ -31,6 +35,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -45,6 +50,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
