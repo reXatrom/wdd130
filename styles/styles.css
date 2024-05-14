@@ -1,34 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,200;0,300;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #5DFDCB ;
+    --secondary-color: #90D7FF ;
+    --accent1-color: #C9F9FF;
+    --accent2-color: #2e86ab;
+
+    --heading-font: 'Roboto' ;
+    --paragraph-font: 'Poppins';
+
+    --nav-background-color: #F5F749 ;
+    --nav-link-color: #559CAD;
+    --nav-hover-link-color: #01BAEF;
+    --nav-hover-background-color: #040F16;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main {
+header, .grid, footer {
     max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--heading-font);
     color: white;
-    padding: 10px;
+    padding: 0.5rem;
     display: block;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
+    margin: 2rem 0;
+    border-bottom: 3px solid;
 }
 
-main {
+/* main {
     max-width: 648px;
-}
+} */
 
 aside {
-    width: 20em;
+    /* width: 20em; */
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
@@ -55,6 +100,7 @@ main img {
 
 p {
     padding: 0;
+    font-family: var(--paragraph-font);
 }
 
 footer {
@@ -68,9 +114,14 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    padding: 3rem;
     background-color: #ddd;
     color: #000;
+}
+
+.box a {
+    text-decoration: none;
+    font-family: var(--heading-font);
 }
 
 /* aside {
@@ -80,6 +131,7 @@ footer {
 
 aside h2 {
     position: absolute;
+    text-align: center;
     top: 47px;
     left: 150px;
 }
