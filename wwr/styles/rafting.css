@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,200;0,300;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: #5DFDCB ;
-    --secondary-color: #90D7FF ;
+    --primary-color: #5DFDCB;
+    --secondary-color: #90D7FF;
     --accent1-color: #C9F9FF;
     --accent2-color: #2e86ab;
 
@@ -33,9 +33,12 @@ p {
 }
 
 header {
-    padding: 100px;
+    padding: 60px;
     background-color: var(--accent1-color);
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* display: grid; */
+    /* grid-template-columns: auto 1fr; */
     justify-content: space-around;
     align-items: center;
 }
@@ -45,10 +48,11 @@ header img {
 }
 
 nav {
-        background-color: var(--nav-background-color);
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
 }
 
 nav a {
@@ -101,6 +105,44 @@ nav a {
     width: 100px;
 }
 
+footer {
+    font-size: medium;
+    font-weight: bold;
+    background-color: #F5F749;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .sociallinks img {
     width: 30px;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 100px;
+    background-color: var(--nav-hover-background-color);
+}
+
+figure img {
+    width: 150%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+figure {
+    /* margin: 0;
+    padding: 0; */
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: white;
 }
