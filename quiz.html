@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML and CSS Quiz Form</title>
+    <meta name="description" content="Basic HTML and CSS Quiz">
+    <meta name="author" content="Hounliho-Jaurex-Samson">
+    
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 
@@ -20,21 +23,21 @@
                 <div class="form-item column1">
                     <label for="question1">
                         <b>1.</b> What does the acronym HTML stand for?
-                        <input type="text" id="question1" name="question1">
+                        <input type="text" id="q1" name="q1">
                     </label>
                 </div>
                 
                 <div class="form-item column1">
                     <label for="question2">
                         <b>2.</b> What does the acronym CSS stand for?
-                        <input type="text" id="question2" name="question2">
+                        <input type="text" id="q2" name="q2">
                     </label>
                 </div>
                 
                 <div class="form-item column2">
                     <label for="question3">
                         <b>3.</b> Which of the following is a valid CSS comment?
-                        <select name="choose1" id="choose1">
+                        <select name="q3" id="q3">
     
                             <option value="option1">Choose one</option>
     
@@ -61,6 +64,13 @@
                 </div>
                 
                 <textarea name="feedback" id="feedback" rows="4" placeholder="start typing your answer"></textarea>
+
+                <div class="form-items column1">
+                    <label for="question6">
+                        <b>6.</b> How many <b>"header"</b> tags are there in HTML?
+                        <input type="number" name="q4" id="q4">
+                    </label>
+                </div>
             </fieldset>
 
             <button type="submit">Submit Quiz</button>
