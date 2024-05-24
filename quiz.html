@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML and CSS Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Questions</legend>
+
+                <div class="form-item column1">
+                    <label for="question1">
+                        <b>1.</b> What does the acronym HTML stand for?
+                        <input type="text" id="question1" name="question1">
+                    </label>
+                </div>
+                
+                <div class="form-item column1">
+                    <label for="question2">
+                        <b>2.</b> What does the acronym CSS stand for?
+                        <input type="text" id="question2" name="question2">
+                    </label>
+                </div>
+                
+                <div class="form-item column2">
+                    <label for="question3">
+                        <b>3.</b> Which of the following is a valid CSS comment?
+                        <select name="choose1" id="choose1">
+    
+                            <option value="option1">Choose one</option>
+    
+                            <option value="option1">/ * * /</option>
+    
+                            <option value="option1"> / * /> </option>
+    
+                            <option value="option1">/* */</option>
+    
+                            <option value="option1">"!--  --"</option>
+                        </select> 
+                    </label>
+                </div>
+                
+                <div class="form-item column1">
+                    <label for="question4">
+                        <b>4.</b> what does "P" element in HTML stands for?
+                        <input type="text" id="question4" name="question4">
+                    </label>
+                </div>
+                
+                <div class="form-item">
+                    <label for="question5"> <b>5.</b> How are <b>"id"</b> and <b>"class"</b> attributes selected in CSS?</label>
+                </div>
+                
+                <textarea name="feedback" id="feedback" rows="4" placeholder="start typing your answer"></textarea>
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©2024 | HTML and CSS Form Quiz | Hounliho Jaurex Samson</p> 
+    </footer>
+</body>
+</html>
