@@ -68,8 +68,8 @@ label {
 
 input, select, textarea {
     padding: 0.5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     font-size: 1.2rem;
     border-radius: 0.5rem;
     border: 1px solid green;
