@@ -178,7 +178,9 @@ p {
 }
 
 .contact-form > div img {
-    width: 85%;
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
 }
 
 .contact-form > div {
