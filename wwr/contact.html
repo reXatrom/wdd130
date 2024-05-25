@@ -30,7 +30,7 @@
         <section class="contact-section">
             <div class="contact-bg">
                 <h3>Get In Touch With Us</h3>
-                <h2>Contact Us</h2>
+                <h1>Contact Us</h1>
 
                 <div class="line">
                     <div></div>
@@ -73,23 +73,56 @@
                 <div class="contact-form">
                     <form action="">
                         <div>
-                            <input type="text" class = "form-control" placeholder="First Name">
+                            <label for="Name">Full Name</label>
+                            <input type="text" id="form-control" name="form-control" class = "form-control" placeholder="Full Name">
 
-                            <input type="text" class = "form-control" placeholder="Last Name">
+                            <label for="Address">Address</label>
+                            <input type="text" id="form-control" name="form-control" class = "form-control" placeholder="Address">
                         </div>
 
                         <div>
-                            <input type="email" class = "form-control" placeholder="E-mail">
+                            <label for="email">Email</label>
+                            <input type="email" id="form-control" class = "form-control" name="form-control" placeholder="E-mail">
 
-                            <input type="text" class = "form-control" placeholder="Phone">
+                            <label for="Phone">Phone No</label>
+                            <input type="text" id="form-control" name="form-control" class = "form-control" placeholder="Phone">
                         </div>
 
                         <textarea rows="5" placeholder="Message" class="form-control"></textarea>
 
-                        <input type="submit" class="send-btn" value="send message">
+                        <div class="form-item column1">
+                            <label for="pet">Do you have a household pet?</label>
+                            <input type="radio" name="pet" id="pet">
+                        </div>
+
+                        <div class="form-item column1">
+                            <label for="pet">Do you have any experience about rafting?</label>
+                            <input type="radio" name="pet" id="pet">
+                        </div>
+                        
+                        <div class="form-item column1">
+                            <label for="radio">Do you wish to have an amazing adventure with us?</label>
+                            <input type="radio" name="pet" id="pet">
+                        </div>
+
+                        <div class="form-item column1">
+                            <label for="checkbox">Data complete?</label>
+                            <input type="checkbox" name="check" id="check">
+                        </div>
+                        
+                        
+                        <button type="submit" class="send-btn" value="send message">Submit Message</button>
                     </form>
 
                     <div>
+                        <img src="images/happy_client.jpg" alt="">
+
+                        <h3>A Happy Client</h3>
+
+                        <img src="images/happy_client.jpg" alt="">
+
+                        <h3>A Happy Client</h3>
+
                         <img src="images/happy_client.jpg" alt="">
 
                         <h3>A Happy Client</h3>

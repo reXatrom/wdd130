@@ -178,14 +178,21 @@ p {
 }
 
 .contact-form > div img {
-    width: 20%;
-    height: 50%;
+    width: 200px;
     border-radius: 50%;
 }
 
+img {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
 .contact-form > div {
     margin: 0 auto;
     text-align: center;
+}
+
+.form-item {
+    padding: 1rem;
 }
 
 h1, h2, h3 {
