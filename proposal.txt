@@ -1,0 +1,106 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+Answer: "Nutritional Information Calculator for Recipes"
+
+
+
+
+2. What real-world problem will your program address or help to solve?
+Answer: 
+    The program will address the need for people to understand the nutritional content of the recipes they prepare. This is especially useful for individuals who are health-conscious, have dietary restrictions, or are managing health conditions such as diabetes or heart disease. The program will help users calculate the nutritional information (e.g., calories, fat, protein, carbohydrates) for any given recipe based on the ingredients and their quantities.
+
+
+
+
+3. What will you learn from developing this program?
+Answer: 
+    a. Understanding how to parse and manipulate data.
+
+    b. Gaining experience in using Python modules for data processing and API requests.
+
+    c. Learning to design reusable and testable functions.
+
+    d. Enhancing skills in user interface design (if a GUI is implemented).
+
+    e. Improving knowledge of nutrition and how to access and use nutritional databases.
+
+
+
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+    Answer:
+
+    a. csv: For handling CSV files containing nutritional information.
+
+    b. datetime: To handle and format dates.
+
+    c. functools: For higher-order functions and operations on callable objects.
+
+    d. requests: To interact with online APIs for obtaining nutritional data.
+
+    e. math: For performing mathematical operations.
+
+    f. pandas: For data manipulation and analysis.
+
+
+
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+    Answer:
+        a. load_ingredient_data(filepath): Loads nutritional data from a CSV file.
+
+        b. fetch_nutritional_data(ingredient): Fetches nutritional data for a specific ingredient from an online API.
+
+        c. calculate_nutritional_info(ingredients_list): Calculates the total nutritional information for a list of ingredients with quantities.
+
+        d. parse_recipe(recipe_text): Parses a text description of a recipe to extract ingredients and quantities.
+
+        e. get_user_input(): Gets user input for the recipe (optional, for interactive mode).
+
+        f. display_nutritional_info(nutritional_data): Prints or displays the nutritional information (optional, for interactive mode).
+
+        g. main(): The main function to run the program.
+
+6. List the names of the test functions you will write.
+
+Answer:
+    a. test_load_ingredient_data(): Tests the function that loads ingredient data from a CSV file.
+
+    b. test_fetch_nutritional_data(): Tests the function that fetches nutritional data from an API.
+
+    c. test_calculate_nutritional_info(): Tests the function that calculates the total nutritional information.
+
+    d. test_parse_recipe(): Tests the function that parses a recipe text.
+
+    e. test_get_user_input(): (Optional) Tests the function that gets user input.
+
+    f. test_display_nutritional_info(): (Optional) Tests the function that displays nutritional information.
+    
+    g. test_main(): Tests the main function to ensure the overall program flow works as expected.
+
