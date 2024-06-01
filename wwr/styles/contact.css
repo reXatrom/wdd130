@@ -108,6 +108,8 @@ p {
 
 .contact-info span {
     display: block;
+    font-size: 1.5rem;
+    color: black;
 }
 
 .contact-info div {
@@ -160,6 +162,29 @@ p {
     column-gap: 0.6rem;
 }
 
+.contact-form span {
+    font-size: 20px;
+    color: var(--nav-hover-link-color);
+}
+
+.form-item-column1 {
+    padding: 2rem;
+    color: #01BAEF;
+    font-size: 20px;
+}
+
+#checkbox{
+    font-size: 20rem;
+}
+
+.form-item {
+    padding: 2rem;
+}
+
+
+.map {
+    width: 100%;
+}
 .send-btn {
     font-family: var(--heading-font);
     font-size: 1rem;
@@ -182,18 +207,36 @@ p {
     border-radius: 50%;
 }
 
-img {
+.contact-info-grid {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
 }
+
+.contact-info-grid article {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-info-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-info-grid h3 {
+    padding-top: 1rem;
+}
+
 .contact-form > div {
     margin: 0 auto;
     text-align: center;
 }
 
-.form-item {
-    padding: 2rem;
-}
 
 h1, h2, h3 {
     /* font-family: var(--heading-font); */
